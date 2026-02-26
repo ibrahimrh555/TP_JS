@@ -25,9 +25,6 @@ document.querySelector('.js-scissors-button')
 
   
   //Add an event listener
-  //if the user presses the key r => play rock
-  //if the user presses the key p => play paper
-  //if the user presses the key s => play scissors
   document.addEventListener('keydown', (event) => {
     if (event.key === 'r') {
       playGame('rock');
