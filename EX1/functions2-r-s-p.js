@@ -43,8 +43,6 @@ function playGame(playerMove) {
   let result = '';
 
   // calculate result
-  // update the score and store it using localStorage.setItem
-  // show the new score and the updated images using "document.querySelector"
   if (playerMove === computerMove) {
     result = 'Tie';
     score.ties++;
